@@ -19,10 +19,6 @@ const mapStateToProps = (state) => ({
 })
 
 class Home extends Component {
-  static propTypes = {
-    items: PropTypes.array.isRequired,
-    dispatch: PropTypes.func.isRequired,
-  }
 
   onAddItem = (text) => {
     const { dispatch } = this.props
